@@ -9,7 +9,7 @@ export function Navbar() {
         
     return (
         <>
-            <div className="flex justify-between p-1.4">
+            <div className="flex justify-between p-1.4 bg-white">
                 
                 <Link to="/"><img src={logo} alt="Logo" className="flex w-18 m-2 mx-10 p-1"/></Link>
                 
@@ -42,7 +42,7 @@ export function Navbar() {
                     <input type="text" className="h-7 w-30 border mt-3 rounded- p-1" placeholder="Search"/> 
                     </div>
                     <img src={Heart} alt="Heart Logo" className=" w-5 h-5 my-4 mx-2 mr-4"/>
-                    <img src={Bag} alt="Bag Logo" className=" w-6 mr-13 mb-3"/>
+                    <img src={Bag} alt="Bag Logo" className=" w-6 mr-15 mb-3 mt-2"/>
                 </div>
             </div>
         </>

@@ -3,10 +3,10 @@ import Banners from '../images/banner.png'
 export function Banner() {
     return (
         <>
-            <div className="mt-20 border-2 mb-3">
+            <div className="mt-20 mb-3 flex-col">
                 <img src={Banners} alt="Banner_image" className="h-150 w-full" />
-                <div className="m-5 border-2">
-                    <button className="justify-center-safe rounded-full border px-4 py-1">Shop Just Do It</button>
+                <div className="flex m-10 justify-center">
+                    <button className="justify-center-safe rounded-full border shadow-blue-500/50 px-4 py-1 hover:bg-gray-300">Shop Just Do It</button>
                 </div>
             </div>
         </>
