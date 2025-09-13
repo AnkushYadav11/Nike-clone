@@ -8,7 +8,7 @@ export function Cards() {
                 <div className="flex">
                     <div className="flex-col shadow-lg shadow-red-100/10 ml-10 mb-5 size-130">
                         <img src={Card} alt="" className="absolute h-130" />
-                        <div className="absolute ml-15 mt-95">
+                        <div className="absolute ml-9 mt-95">
                             <h1 className="mb-1 text-white font-semibold">Pegasus</h1>
                             <h1 className="text-white font-semibold">Run Power</h1>
                             <button className="mt-5 rounded-full bg-white p-1 px-4">
@@ -19,7 +19,7 @@ export function Cards() {
 
                     <div className="flex-col shadow-lg shadow-red-100/10 ml-8 size-130">
                         <img src={Card} alt="" className="absolute h-130" />
-                        <div className="absolute ml-15 mt-95">
+                        <div className="absolute ml-9 mt-95">
                             <h1 className="mb-1 text-white font-semibold">Vomero</h1>
                             <h1 className="text-white font-semibold">Run Bigger</h1>
                             <button className="mt-5 rounded-full bg-white p-1 px-4">
@@ -30,7 +30,7 @@ export function Cards() {
 
                     <div className="flex-col shadow-lg shadow-red-100/10 ml-8 size-130">
                         <img src={Card} alt="" className="absolute h-130" />
-                        <div className="absolute ml-15 mt-95">
+                        <div className="absolute ml-9 mt-70">
                             <h1 className="mb-1 text-white font-semibold">Structure</h1>
                             <h1 className="text-white font-semibold">Run Supported</h1>
                             <button className="mt-5 rounded-full bg-white p-1 px-4">

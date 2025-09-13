@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../images/bannerimg.jpg'
 import { Cards} from '../components/Cards'
+import { Cat } from './Cat';
 export function Home() {
     return (
         <>
@@ -40,6 +41,7 @@ export function Home() {
                 </button>
             </div>
             <Cards/>
+            <Cat/>
         </>
     );
 }
