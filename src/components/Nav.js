@@ -1,6 +1,7 @@
 import React from "react";
 import Jordan from '../images/jordan.svg'
 import { Link } from "react-router-dom";
+
 export function Nav() {
     return(
         <>
