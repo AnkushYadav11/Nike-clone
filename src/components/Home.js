@@ -1,26 +1,28 @@
 import React from 'react';
-import Banner from '../images/bannerimg.jpg'
+import Banners from '../images/bannerimg.jpg'
 import { Cards} from '../components/Cards'
 import { Cat } from './Cat';
+import { Banner } from './Banner';
+
 export function Home() {
     return (
         <>
             <div id="controls-carousel" class="relative w-full h-200 border-2" data-carousel="static">
                 <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={Banner} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                        <img src={Banners} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-                        <img src={Banner} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                        <img src={Banners} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={Banner} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                        <img src={Banners} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={Banner} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                        <img src={Banners} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                     </div>
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src={Banner} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
+                        <img src={Banners} class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..." />
                     </div>
                 </div>
                 <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
@@ -42,6 +44,7 @@ export function Home() {
             </div>
             <Cards/>
             <Cat/>
+            <Banner/>
         </>
     );
 }

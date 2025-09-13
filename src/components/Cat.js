@@ -8,40 +8,34 @@ import Sketboard from '../images/skateboard.jpg';
 export function Cat() {
     return(
         <>
-        <div className="mr-20 ml-20 mt-10 overflow-x-auto">
+        <div className="mr-20 ml-20 mt-10">
             <h1 className="text-[27px] mb-5">Shop by Sport</h1>
-            <div className="flex">
-                <div className="flex gap-5 border h-150">
-                    <div>
+            <div className="flex overflow-x-auto">
+                <div className="flex gap-2 mb-5">
+                    <div className="w-100">
                         <img src={Running} alt="Running" />
-                        <div>
+                        <div className="m-5 font-semibold text-[23px]">
                             <h1>Running</h1>
                         </div>
                     </div>
 
-                    <div>
+                    <div className="w-116">
                         <img src={Football} alt="Football" />
-                        <div>
+                        <div className="m-5 font-semibold text-[23px]">
                             <h1>Football</h1>
                         </div>
                     </div>
 
-                    <div>
+                    <div className="w-100">
                         <img src={Golf} alt="Golf" />
-                        <div>
+                        <div className="m-5 font-semibold text-[23px]">
                             <h1>Golf</h1>
                         </div>
                     </div>
 
-                    <div>
-                        <img src={Tenis} alt="Table Tenis" />
-                        <div>
-                            <h1>Tenis</h1>
-                        </div>
-                    </div>
-                    <div>
+                    <div className="w-107">
                         <img src={Sketboard} alt="" />
-                        <div>
+                        <div className="m-5 font-semibold text-[23px]">
                             <h1>Sketeboard</h1>
                         </div>
                     </div>
