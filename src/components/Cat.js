@@ -42,21 +42,21 @@ export function Cat() {
                             </div>
                         </div>
 
-                        <div className="w-115">
+                        <div className="w-120">
                             <img src={Baseball} alt="baseball" className="size-150 w-120" />
                             <div className="m-5 font-semibold text-[23px]">
                                 <h1>Baseball</h1>
                             </div>
                         </div>
 
-                        <div className="w-100">
-                            <img src={Af} alt="American Football" className="size-150 w-130" />
+                        <div className="w-125">
+                            <img src={Af} alt="American Football" className="size-150 w-120" />
                             <div className="m-5 font-semibold text-[23px]">
                                 <h1>American Football</h1>
                             </div>
                         </div>
 
-                        <div className="w-100">
+                        <div className="w-110">
                             <img src={Tenis} alt="Tenis" className="size-150" />
                             <div className="m-5 font-semibold text-[23px]">
                                 <h1>Tenis</h1>
