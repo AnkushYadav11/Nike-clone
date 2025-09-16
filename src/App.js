@@ -10,15 +10,14 @@ import { Kids } from "./components/Kids";
 import { Sale } from "./components/Sale";
 import { Home } from "./components/Home";
 import { Snkrs } from "./components/Snkrs";
+import { Joinus } from './components/Joinus';
+
 function App() {
   return (
     <>
       <Nav />
       <Navbar />
       <Salebar />
-
-
-
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
@@ -29,6 +28,7 @@ function App() {
         <Route path="/kids" element={<Kids />}></Route>
         <Route path="/sale" element={<Sale />}></Route>
         <Route path="/snkrs" element={<Snkrs />}></Route>
+        <Route path="/joinus" element={<Joinus />}></Route>
       </Routes>
     </>
   );

@@ -62,7 +62,6 @@ export function Cat() {
                                 <h1>Tenis</h1>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

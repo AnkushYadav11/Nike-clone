@@ -38,10 +38,9 @@ export function Navbar() {
         
                 <div className="flex">
                     <div className="flex mr-5">
-                    <img src={search} alt="SearchLogo" className="w-5 mx-5 border rounded-lg h-8 w-9 mt-3" />
-                    <input type="text" className="h-7 w-30 border mt-3 rounded- p-1" placeholder="Search"/> 
+                    <img src={search} alt="SearchLogo" className="w-5 rounded-lg" />
                     </div>
-                    <img src={Heart} alt="Heart Logo" className=" w-5 h-5 my-4 mx-2 mr-4"/>
+                    <img src={Heart} alt="Heart Logo" className=" w-5 h-5 my-4 mr-4"/>
                     <img src={Bag} alt="Bag Logo" className=" w-6 mr-15 mb-3 mt-2"/>
                 </div>
             </div>
